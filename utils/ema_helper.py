@@ -12,10 +12,13 @@ class EMAHelper(BaseModule):
 		self.args = args = param.args
 		self.param = param
 
-		self.parameter_list = parameter_list
+		self.parameter_list = list(parameter_list)
 
-		new_params = [nn.Parameter(torch.Tensor(a.data)) for a in parameter_list]
-		new_stash = [torch.Tensor(a.data) for a in parameter_list]
+		if not parameter_list:
+			raise RuntimeError("no ema parameter")
+
+		new_params = [nn.Parameter(torch.Tensor(a.data)) for a in self.parameter_list]
+		new_stash = [torch.Tensor(a.data) for a in self.parameter_list]
 
 		self.params = nn.ParameterList(new_params)
 		self.stash = new_stash
