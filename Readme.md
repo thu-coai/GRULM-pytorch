@@ -22,7 +22,7 @@ Chung, J., Gulcehre, C., Cho, K., & Bengio, Y. (2014). Empirical evaluation of g
 
 ## Quick Start
 
-* Install ``CoTK`` following [CoTK](https://github.com/thu-coai/cotk).
+* Install ``CoTK`` following [instructions](https://github.com/thu-coai/cotk#installation).
 * Using ``cotk download thu-coai/GRULM-pytorch/master`` to download codes.
 * Execute ``python run.py`` to train the model.
   * The default dataset is ``resources://MSCOCO``. You can use ``--dataid`` to specify data path (can be a local path, a url or a resources id). For example: ``--dataid /path/to/datasets``
