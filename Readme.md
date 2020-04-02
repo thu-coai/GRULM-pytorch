@@ -1,7 +1,7 @@
 [![Main Repo](https://img.shields.io/badge/Main_project-cotk-blue.svg?logo=github)](https://github.com/thu-coai/cotk)
-[![This Repo](https://img.shields.io/badge/Model_repo-pytorch--seq2seq-blue.svg?logo=github)](https://github.com/thu-coai/GRULM-pytorch)
-[![Coverage Status](https://coveralls.io/repos/github/thu-coai/seq2seq-pytorch/badge.svg?branch=master)](https://coveralls.io/github/thu-coai/GRULM-pytorch?branch=master)
-[![Build Status](https://travis-ci.com/thu-coai/seq2seq-pytorch.svg?branch=master)](https://travis-ci.com/thu-coai/GRULM-pytorch)
+[![This Repo](https://img.shields.io/badge/Model_repo-GRULM--pytorch-blue.svg?logo=github)](https://github.com/thu-coai/GRULM-pytorch)
+[![Coverage Status](https://coveralls.io/repos/github/thu-coai/GRULM-pytorch/badge.svg?branch=master)](https://coveralls.io/github/thu-coai/GRULM-pytorch?branch=master)
+[![Build Status](https://travis-ci.com/thu-coai/GRULM-pytorch.svg?branch=master)](https://travis-ci.com/thu-coai/GRULM-pytorch)
 
 This repo is a benchmark model for [CoTK](https://github.com/thu-coai/cotk) package.
 
@@ -16,7 +16,7 @@ Chung, J., Gulcehre, C., Cho, K., & Bengio, Y. (2014). Empirical evaluation of g
 ## Require Packages
 
 * **python3**
-* CoTK >= 0.1
+* CoTK >= 0.1.0
 * pytorch >= 1.0.0
 * tensorboardX >= 1.4
 
